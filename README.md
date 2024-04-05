@@ -1,5 +1,6 @@
+# This is a GUI Based Food Delivery Robot
 
-## Open three terminals and source the three terminals using the below commmand
+## Open three terminals and source the three terminals using the below command
 
 ### source goat_ws/install/setup.bash
 
