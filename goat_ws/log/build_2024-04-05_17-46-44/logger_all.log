@@ -1,0 +1,145 @@
+[0.308s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.308s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fddf44efb50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fddf4ef3280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fddf4ef3280>>)
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.334s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/magic/goat_ws'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/goat_nav2) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/goat_nav2' with type 'ros.ament_cmake' and name 'goat_nav2'
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/magic/turtlebot3_ws/install
+[0.373s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/magic/colcon_ws/install
+[0.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/magic/thedush_ws/install
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/magic/project_ws/install
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/magic/ros2_ws/install
+[0.377s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/humble
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'goat_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'goat_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magic/goat_ws/build/goat_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magic/goat_ws/install/goat_nav2', 'merge_install': False, 'path': '/home/magic/goat_ws/src/goat_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.457s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magic/goat_ws/src/goat_nav2' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magic/goat_ws/src/goat_nav2'
+[0.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magic/goat_ws/build/goat_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/goat_nav2 -- -j12 -l12
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magic/goat_ws/build/goat_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/goat_nav2 -- -j12 -l12
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magic/goat_ws/build/goat_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/goat_nav2
+[1.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(goat_nav2)
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magic/goat_ws/build/goat_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/goat_nav2
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2' for CMake module files
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2' for CMake config files
+[1.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('goat_nav2', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/bin'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib/pkgconfig/goat_nav2.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib/python3.10/site-packages'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.bash'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.zsh'
+[1.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magic/goat_ws/install/goat_nav2/share/colcon-core/packages/goat_nav2)
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(goat_nav2)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2' for CMake config files
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('goat_nav2', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib/pkgconfig/goat_nav2.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/lib/python3.10/site-packages'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/magic/goat_ws/install/goat_nav2/bin'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.bash'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.zsh'
+[1.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magic/goat_ws/install/goat_nav2/share/colcon-core/packages/goat_nav2)
+[1.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.175s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.183s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.201s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magic/goat_ws/install/local_setup.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magic/goat_ws/install/_local_setup_util_ps1.py'
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magic/goat_ws/install/setup.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magic/goat_ws/install/local_setup.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magic/goat_ws/install/_local_setup_util_sh.py'
+[1.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magic/goat_ws/install/setup.sh'
+[1.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magic/goat_ws/install/local_setup.bash'
+[1.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magic/goat_ws/install/setup.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magic/goat_ws/install/local_setup.zsh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magic/goat_ws/install/setup.zsh'

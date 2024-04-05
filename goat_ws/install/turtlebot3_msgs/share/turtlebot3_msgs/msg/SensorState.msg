@@ -1,0 +1,1 @@
+/home/magic/goat_ws/src/turtlebot3_msgs/msg/SensorState.msg

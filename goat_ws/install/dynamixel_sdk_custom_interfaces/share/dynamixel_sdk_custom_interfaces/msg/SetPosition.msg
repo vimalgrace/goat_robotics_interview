@@ -1,0 +1,1 @@
+/home/magic/goat_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

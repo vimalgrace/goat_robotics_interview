@@ -1,0 +1,70 @@
+[0.067s] Invoking command in '/home/magic/goat_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/magic/goat_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/magic/goat_ws/install/dynamixel_sdk
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.453s] -- Detecting C compiler ABI info - done
+[0.465s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.604s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.913s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.016s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.216s] -- Configuring done
+[1.223s] -- Generating done
+[1.224s] -- Build files have been written to: /home/magic/goat_ws/build/dynamixel_sdk
+[1.229s] Invoked command in '/home/magic/goat_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/magic/goat_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/magic/goat_ws/install/dynamixel_sdk
+[1.232s] Invoking command in '/home/magic/goat_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/dynamixel_sdk -- -j12 -l12
+[1.309s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.310s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.310s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.310s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.310s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.310s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.311s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.311s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.311s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[2.182s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[2.300s] [100%] Built target dynamixel_sdk
+[2.316s] Invoked command in '/home/magic/goat_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/dynamixel_sdk -- -j12 -l12
+[2.382s] Invoking command in '/home/magic/goat_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/dynamixel_sdk
+[2.396s] -- Install configuration: ""
+[2.397s] -- Execute custom install script
+[2.398s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.411s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.424s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.436s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.448s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.464s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.476s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.488s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.500s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.511s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.524s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.537s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.549s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.562s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.574s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.587s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.600s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.612s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.625s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.639s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.652s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.666s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.679s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.692s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.705s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.718s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.731s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.744s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.757s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.770s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.782s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.795s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.808s] -- Symlinking: /home/magic/goat_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.829s] Invoked command in '/home/magic/goat_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/dynamixel_sdk

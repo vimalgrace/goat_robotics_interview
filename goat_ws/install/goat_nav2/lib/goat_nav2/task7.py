@@ -1,0 +1,1 @@
+/home/magic/goat_ws/src/goat_nav2/scripts/task7.py

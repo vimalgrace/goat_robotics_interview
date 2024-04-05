@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/magic/goat_ws/build/goat_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/goat_nav2 -- -j12 -l12
+[0.034s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.152s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[0.152s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.176s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.178s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.184s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.296s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.338s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.532s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.642s] -- Added test 'lint_cmake' to check CMake code style
+[0.643s] -- Added test 'xmllint' to check XML markup files
+[0.644s] -- Configuring done
+[0.649s] -- Generating done
+[0.651s] -- Build files have been written to: /home/magic/goat_ws/build/goat_nav2
+[0.686s] Invoked command in '/home/magic/goat_ws/build/goat_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/magic/goat_ws/build/goat_nav2 -- -j12 -l12
+[0.733s] Invoking command in '/home/magic/goat_ws/build/goat_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/goat_nav2
+[0.742s] -- Install configuration: ""
+[0.744s] -- Execute custom install script
+[0.744s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/maps/my_demo_map.pgm
+[0.744s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/maps/my_demo_map.yaml
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/ament_index/resource_index/package_run_dependencies/goat_nav2
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/ament_index/resource_index/parent_prefix_path/goat_nav2
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/environment/ament_prefix_path.sh
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/environment/path.sh
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/environment/path.dsv
+[0.745s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/local_setup.bash
+[0.746s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/local_setup.sh
+[0.746s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/local_setup.zsh
+[0.746s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/local_setup.dsv
+[0.746s] -- Symlinking: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.dsv
+[0.760s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/ament_index/resource_index/packages/goat_nav2
+[0.760s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/cmake/goat_nav2Config.cmake
+[0.760s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/cmake/goat_nav2Config-version.cmake
+[0.760s] -- Up-to-date symlink: /home/magic/goat_ws/install/goat_nav2/share/goat_nav2/package.xml
+[0.763s] Invoked command in '/home/magic/goat_ws/build/goat_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magic/colcon_ws/install/ebot_control:/home/magic/thedush_ws/install/converter_pkg:/home/magic/project_ws/install/converter_pkg:/home/magic/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/magic/goat_ws/build/goat_nav2
