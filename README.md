@@ -7,6 +7,6 @@
 
 ### ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-## ros2 launch goat_nav2 goat_bringup_launch.py
+### ros2 launch goat_nav2 goat_bringup_launch.py
 
 ### ros2 run goat_nav2 final_task.py
