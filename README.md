@@ -20,13 +20,14 @@ This project demonstrates a GUI-based food delivery robot system. The robot is c
    source goat_ws/install/setup.bash
    
 ## Usage
-Launch Gazebo with Turtlebot3:
+### Launch Gazebo with Turtlebot3:
+
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-Launch the navigation stack:
+### Launch the navigation stack:
 
 ros2 launch goat_nav2 goat_bringup_launch.py
 
-Run the final task:
+### Run the final task:
 
 ros2 run goat_nav2 final_task.py
