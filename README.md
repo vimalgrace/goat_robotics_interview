@@ -13,7 +13,7 @@ This project demonstrates a GUI-based food delivery robot system. The robot is c
 ## Installation
 1. Clone the repository:
 
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/vimalgrace/goat_robotics_interview.git
 
 2. Source the workspace in three terminals:
 
